@@ -1,0 +1,63 @@
+body{
+    background-image: url('https://source.unsplash.com/1600x900/?globe');
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    background: #000000d0;
+    color: aliceblue;
+    width: 40vw;
+    height: auto;
+    max-width: 37.5em;
+    padding: 1em 1.5em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    
+}
+.container h2{
+    font-size: 28px;
+    position: relative;
+    left: 30%;
+    color: rgb(58, 158, 251);
+}
+.container .country-image{
+    display: block;
+    width: 45%;
+    max-width: 3.5em;
+    margin: 1.8em auto 2em auto;
+}
+#result{
+   margin-top: 1.25em; 
+}
+.input-wraper{
+    display: grid;
+    grid-template-columns: 9fr 2fr;
+    gap: 1em;
+}
+.input-wraper button{
+    font-size: 1em;
+    background-color: rgb(58, 158, 251);
+    color: black;
+    padding: 0.8em 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.input-wraper input{
+    font-size: 1em;
+    padding: 0 0.62em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    border: none;
+    border-bottom: 2px solid rgb(58, 158, 251);
+    outline: none;
+    color: black;
+}
+.error{
+    color: brown;
+    font-size: 11px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
